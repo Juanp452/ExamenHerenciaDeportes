@@ -5,8 +5,7 @@ class Deportes:
         self._minutos_juego = minutos_juego
         self._minutos_descanso = minutos_descanso
         self._numero_jugadores = numero_jugadores
-        self._tipo = tipo
-        self._nivel = nivel
+
 
     def get_nombre(self):
         return self._nombre
@@ -38,14 +37,4 @@ class Deportes:
     def set_numero_jugadores(self, numero_jugadores):
         self._numero_jugadores = numero_jugadores
 
-    def get_tipo(self):
-        return self._tipo
 
-    def set_tipo(self, tipo):
-        self._tipo = tipo
-
-    def get_nivel(self):
-        return self._nivel
-
-    def set_nivel(self, nivel):
-        self._nivel = nivel
